@@ -21,4 +21,10 @@ app.get('/guess/:number', function (req, res) {
     });
 });
 
+app.get('/update/', function (req, res) {
+    res.send({
+        message: 'ok, let the game begins'
+    });
+});
+
 module.exports = app;
